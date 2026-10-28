@@ -1,0 +1,5 @@
+room_type,listings,mean_price,median_price,mean_availability_365,mean_reviews_ltm,share
+Entire home/apt,10007,302.05,215.9,253.4,4.73,52.6
+Private room,8499,220.33,117.0,251.8,10.62,44.7
+Hotel room,393,709.93,594.0,298.0,1.71,2.1
+Shared room,119,184.57,117.83,274.4,7.19,0.6

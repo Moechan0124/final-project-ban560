@@ -1,0 +1,6 @@
+borough,listings,mean_price,median_price,mean_availability_365,mean_reviews_ltm,share
+Manhattan,8565,374.57,259.18,254.0,7.74,45.0
+Brooklyn,6279,208.82,157.45,247.3,7.15,33.0
+Queens,3166,169.17,127.28,258.5,7.31,16.6
+Bronx,730,138.94,110.77,275.3,5.02,3.8
+Staten Island,278,143.09,107.53,279.6,4.19,1.5

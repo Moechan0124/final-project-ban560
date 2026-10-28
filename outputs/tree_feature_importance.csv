@@ -1,0 +1,361 @@
+feature,source,importance,label,model
+shared_bath_imp,shared_bath,0.14539207470407553,shared bath,Random forest
+km_to_midtown_imp,km_to_midtown,0.08517024598199925,km to midtown,Random forest
+log_min_nights_imp,log_min_nights,0.08205246299489459,log min nights,Random forest
+stay_type_ohe_30+ nights,stay_type,0.07846809858707005,stay type: 30+ nights,Random forest
+accommodates_imp,accommodates,0.059215352867962354,accommodates,Random forest
+longitude_imp,longitude,0.046503282762855994,longitude,Random forest
+bathrooms_imp,bathrooms,0.039951831644075286,bathrooms,Random forest
+availability_30_imp,availability_30,0.0391362085688975,availability 30,Random forest
+license_status_ohe_Exempt,license_status,0.0357141859975747,license status: Exempt,Random forest
+room_type_ohe_Entire home/apt,room_type,0.03545567037058252,room type: Entire home/apt,Random forest
+bedrooms_imp,bedrooms,0.03261288781829871,bedrooms,Random forest
+room_type_ohe_Private room,room_type,0.027252011423461637,room type: Private room,Random forest
+am_building_staff_imp,am_building_staff,0.02600029487584482,amenity: building staff,Random forest
+log_host_listings_imp,log_host_listings,0.023361769165480772,log host listings,Random forest
+license_status_ohe_Not reported,license_status,0.018039271372357772,license status: Not reported,Random forest
+am_bedroom_lock_imp,am_bedroom_lock,0.016235219570810266,amenity: lock on bedroom door,Random forest
+latitude_imp,latitude,0.015333734099825976,latitude,Random forest
+amenities_count_imp,amenities_count,0.015147312299241189,amenities count,Random forest
+availability_365_imp,availability_365,0.014191887656143999,availability 365,Random forest
+beds_imp,beds,0.012528510025567216,beds,Random forest
+log_reviews_imp,log_reviews,0.012214961487399183,log reviews,Random forest
+hosts_time_as_host_years_imp,hosts_time_as_host_years,0.010580950210369422,hosts time as host years,Random forest
+am_gym_imp,am_gym,0.010386436541083727,amenity: gym,Random forest
+log_reviews_ltm_imp,log_reviews_ltm,0.009319537755779084,log reviews (last 12 mo),Random forest
+am_dishwasher_imp,am_dishwasher,0.007961862831207485,amenity: dishwasher,Random forest
+review_scores_rating_imp,review_scores_rating,0.007153917764828336,review scores rating,Random forest
+property_grp_ohe_Room in hotel,property_grp,0.007128287657017317,property: Room in hotel,Random forest
+review_scores_location_imp,review_scores_location,0.007084954308557026,review scores location,Random forest
+property_grp_ohe_Private room in rental unit,property_grp,0.006644608398383702,property: Private room in rental unit,Random forest
+review_scores_cleanliness_imp,review_scores_cleanliness,0.006379967785129729,review scores cleanliness,Random forest
+review_scores_value_imp,review_scores_value,0.004910068256812557,review scores value,Random forest
+am_elevator_imp,am_elevator,0.0048272483313387266,amenity: elevator,Random forest
+has_reviews_imp,has_reviews,0.0043628944761513145,has reviews,Random forest
+property_grp_ohe_Entire rental unit,property_grp,0.0032838164159488693,property: Entire rental unit,Random forest
+am_washer_imp,am_washer,0.002978196356388296,amenity: washer,Random forest
+am_pets_allowed_imp,am_pets_allowed,0.0022835720036707132,amenity: pets allowed,Random forest
+property_grp_ohe_Private room in home,property_grp,0.0022584213590613553,property: Private room in home,Random forest
+is_superhost_imp,is_superhost,0.0021903547040187724,is superhost,Random forest
+am_workspace_imp,am_workspace,0.0018137407222552292,amenity: dedicated workspace,Random forest
+am_tv_imp,am_tv,0.0016634227332292368,amenity: tv,Random forest
+am_dryer_imp,am_dryer,0.0015401782642342214,amenity: dryer,Random forest
+am_self_checkin_imp,am_self_checkin,0.001534992305232382,amenity: self check-in,Random forest
+neighbourhood_grp_ohe_Midtown,neighbourhood_grp,0.0015154152834411514,neighbourhood: Midtown,Random forest
+am_outdoor_dining_imp,am_outdoor_dining,0.001400112438636336,amenity: outdoor dining area,Random forest
+am_private_entrance_imp,am_private_entrance,0.0013103920418386828,amenity: private entrance,Random forest
+property_grp_ohe_Other,property_grp,0.001290111169563387,property: Other,Random forest
+am_bathtub_imp,am_bathtub,0.0012707558681062587,amenity: bathtub,Random forest
+am_air_conditioning_imp,am_air_conditioning,0.0012084990003745231,amenity: air conditioning,Random forest
+am_free_parking_imp,am_free_parking,0.0010203312917641254,amenity: free parking on premises,Random forest
+neighbourhood_grp_ohe_Williamsburg,neighbourhood_grp,0.0008410285596778526,neighbourhood: Williamsburg,Random forest
+neighbourhood_grp_ohe_Hell's Kitchen,neighbourhood_grp,0.0007614299597475318,neighbourhood: Hell's Kitchen,Random forest
+neighbourhood_grp_ohe_Bedford-Stuyvesant,neighbourhood_grp,0.0006817968763398863,neighbourhood: Bedford-Stuyvesant,Random forest
+property_grp_ohe_Entire condo,property_grp,0.0006718761964880173,property: Entire condo,Random forest
+neighbourhood_grp_ohe_Upper East Side,neighbourhood_grp,0.0006119859266045692,neighbourhood: Upper East Side,Random forest
+neighbourhood_grp_ohe_Harlem,neighbourhood_grp,0.0006105381277453827,neighbourhood: Harlem,Random forest
+neighbourhood_grp_ohe_Upper West Side,neighbourhood_grp,0.0005842416414827692,neighbourhood: Upper West Side,Random forest
+property_grp_ohe_Entire loft,property_grp,0.0005591824374877957,property: Entire loft,Random forest
+property_grp_ohe_Private room in townhouse,property_grp,0.0005459175592509352,property: Private room in townhouse,Random forest
+neighbourhood_grp_ohe_Gramercy,neighbourhood_grp,0.0005320962557827535,neighbourhood: Gramercy,Random forest
+neighbourhood_grp_ohe_East Flatbush,neighbourhood_grp,0.0005236900685280819,neighbourhood: East Flatbush,Random forest
+neighbourhood_grp_ohe_Financial District,neighbourhood_grp,0.0005008334331964661,neighbourhood: Financial District,Random forest
+neighbourhood_grp_ohe_Sunset Park,neighbourhood_grp,0.0004995726528729859,neighbourhood: Sunset Park,Random forest
+neighbourhood_grp_ohe_Greenpoint,neighbourhood_grp,0.00044911189843383186,neighbourhood: Greenpoint,Random forest
+neighbourhood_grp_ohe_Lower East Side,neighbourhood_grp,0.00044091654848337256,neighbourhood: Lower East Side,Random forest
+neighbourhood_grp_ohe_Long Island City,neighbourhood_grp,0.0004320312484195212,neighbourhood: Long Island City,Random forest
+neighbourhood_grp_ohe_West Village,neighbourhood_grp,0.0004015998725274037,neighbourhood: West Village,Random forest
+neighbourhood_grp_ohe_Bushwick,neighbourhood_grp,0.00039524991833510877,neighbourhood: Bushwick,Random forest
+neighbourhood_grp_ohe_Ozone Park,neighbourhood_grp,0.00039062883702519266,neighbourhood: Ozone Park,Random forest
+neighbourhood_grp_ohe_Chelsea,neighbourhood_grp,0.00038797686532256604,neighbourhood: Chelsea,Random forest
+neighbourhood_grp_ohe_Greenwich Village,neighbourhood_grp,0.00038538743498241456,neighbourhood: Greenwich Village,Random forest
+room_type_ohe_Hotel room,room_type,0.0003801435582808559,room type: Hotel room,Random forest
+neighbourhood_grp_ohe_Bayside,neighbourhood_grp,0.0003676984837380235,neighbourhood: Bayside,Random forest
+property_grp_ohe_Entire home,property_grp,0.00036378877396422434,property: Entire home,Random forest
+neighbourhood_grp_ohe_Other Brooklyn,neighbourhood_grp,0.00033558905963150103,neighbourhood: Other Brooklyn,Random forest
+neighbourhood_grp_ohe_Other Staten Island,neighbourhood_grp,0.00033448504414601213,neighbourhood: Other Staten Island,Random forest
+neighbourhood_grp_ohe_Jackson Heights,neighbourhood_grp,0.00032736143095812826,neighbourhood: Jackson Heights,Random forest
+neighbourhood_grp_ohe_SoHo,neighbourhood_grp,0.000326659081812857,neighbourhood: SoHo,Random forest
+neighbourhood_grp_ohe_Flatbush,neighbourhood_grp,0.0003233194707411085,neighbourhood: Flatbush,Random forest
+neighbourhood_grp_ohe_Crown Heights,neighbourhood_grp,0.0003157364354529775,neighbourhood: Crown Heights,Random forest
+neighbourhood_grp_ohe_Morningside Heights,neighbourhood_grp,0.00030001338535001873,neighbourhood: Morningside Heights,Random forest
+neighbourhood_grp_ohe_Arverne,neighbourhood_grp,0.0002800022933124876,neighbourhood: Arverne,Random forest
+neighbourhood_grp_ohe_Other Bronx,neighbourhood_grp,0.00027957397338978585,neighbourhood: Other Bronx,Random forest
+neighbourhood_grp_ohe_Murray Hill,neighbourhood_grp,0.0002754241380598017,neighbourhood: Murray Hill,Random forest
+neighbourhood_grp_ohe_Carroll Gardens,neighbourhood_grp,0.00026715276291556687,neighbourhood: Carroll Gardens,Random forest
+property_grp_ohe_Entire townhouse,property_grp,0.0002528323531007776,property: Entire townhouse,Random forest
+neighbourhood_grp_ohe_East Village,neighbourhood_grp,0.00024857221075813194,neighbourhood: East Village,Random forest
+neighbourhood_grp_ohe_East Harlem,neighbourhood_grp,0.00024794402478116345,neighbourhood: East Harlem,Random forest
+neighbourhood_grp_ohe_Inwood,neighbourhood_grp,0.00024624558086549017,neighbourhood: Inwood,Random forest
+neighbourhood_grp_ohe_Theater District,neighbourhood_grp,0.0002455748921569114,neighbourhood: Theater District,Random forest
+property_grp_ohe_Private room in condo,property_grp,0.00024548842439444816,property: Private room in condo,Random forest
+identity_verified_imp,identity_verified,0.00024050676391739126,identity verified,Random forest
+neighbourhood_grp_ohe_Allerton,neighbourhood_grp,0.00023505246779210404,neighbourhood: Allerton,Random forest
+neighbourhood_grp_ohe_Jamaica,neighbourhood_grp,0.00022764974169324167,neighbourhood: Jamaica,Random forest
+neighbourhood_grp_ohe_Prospect Heights,neighbourhood_grp,0.00021904631528112738,neighbourhood: Prospect Heights,Random forest
+neighbourhood_grp_ohe_Woodside,neighbourhood_grp,0.0002168779786581419,neighbourhood: Woodside,Random forest
+neighbourhood_grp_ohe_Springfield Gardens,neighbourhood_grp,0.00021074968589527497,neighbourhood: Springfield Gardens,Random forest
+neighbourhood_grp_ohe_Brownsville,neighbourhood_grp,0.0002016487705736526,neighbourhood: Brownsville,Random forest
+neighbourhood_grp_ohe_Kips Bay,neighbourhood_grp,0.0001867735881983792,neighbourhood: Kips Bay,Random forest
+neighbourhood_grp_ohe_Kew Gardens Hills,neighbourhood_grp,0.0001853102358470632,neighbourhood: Kew Gardens Hills,Random forest
+neighbourhood_grp_ohe_Cypress Hills,neighbourhood_grp,0.00018375839031231495,neighbourhood: Cypress Hills,Random forest
+neighbourhood_grp_ohe_Astoria,neighbourhood_grp,0.00018216792530607995,neighbourhood: Astoria,Random forest
+neighbourhood_grp_ohe_Flushing,neighbourhood_grp,0.00017883944852533723,neighbourhood: Flushing,Random forest
+neighbourhood_grp_ohe_Bergen Beach,neighbourhood_grp,0.000173500980435835,neighbourhood: Bergen Beach,Random forest
+neighbourhood_grp_ohe_Downtown Brooklyn,neighbourhood_grp,0.00016026953376565921,neighbourhood: Downtown Brooklyn,Random forest
+neighbourhood_grp_ohe_Chinatown,neighbourhood_grp,0.0001555855596026193,neighbourhood: Chinatown,Random forest
+neighbourhood_grp_ohe_Gowanus,neighbourhood_grp,0.00015247896451180717,neighbourhood: Gowanus,Random forest
+neighbourhood_grp_ohe_Flatlands,neighbourhood_grp,0.00014579624388302585,neighbourhood: Flatlands,Random forest
+property_grp_ohe_Entire guest suite,property_grp,0.0001389633921093969,property: Entire guest suite,Random forest
+neighbourhood_grp_ohe_Sunnyside,neighbourhood_grp,0.00013348828917865755,neighbourhood: Sunnyside,Random forest
+neighbourhood_grp_ohe_Cambria Heights,neighbourhood_grp,0.0001238998306814047,neighbourhood: Cambria Heights,Random forest
+neighbourhood_grp_ohe_Fort Greene,neighbourhood_grp,0.0001235283676453861,neighbourhood: Fort Greene,Random forest
+neighbourhood_grp_ohe_Prospect-Lefferts Gardens,neighbourhood_grp,0.00012284863158558862,neighbourhood: Prospect-Lefferts Gardens,Random forest
+neighbourhood_grp_ohe_East New York,neighbourhood_grp,0.00012268064577980573,neighbourhood: East New York,Random forest
+neighbourhood_grp_ohe_Forest Hills,neighbourhood_grp,0.00012023594803327251,neighbourhood: Forest Hills,Random forest
+neighbourhood_grp_ohe_Other Queens,neighbourhood_grp,0.00011857796752785059,neighbourhood: Other Queens,Random forest
+neighbourhood_grp_ohe_Park Slope,neighbourhood_grp,0.00011759707603079028,neighbourhood: Park Slope,Random forest
+neighbourhood_grp_ohe_Other Manhattan,neighbourhood_grp,0.00010583325840828967,neighbourhood: Other Manhattan,Random forest
+neighbourhood_grp_ohe_Tribeca,neighbourhood_grp,0.00010428218129277718,neighbourhood: Tribeca,Random forest
+neighbourhood_grp_ohe_Clinton Hill,neighbourhood_grp,0.00010382308552735779,neighbourhood: Clinton Hill,Random forest
+neighbourhood_grp_ohe_Maspeth,neighbourhood_grp,0.00010315558825863482,neighbourhood: Maspeth,Random forest
+neighbourhood_grp_ohe_Boerum Hill,neighbourhood_grp,0.00010213490936626298,neighbourhood: Boerum Hill,Random forest
+neighbourhood_grp_ohe_Ditmars Steinway,neighbourhood_grp,0.00010014798790197968,neighbourhood: Ditmars Steinway,Random forest
+neighbourhood_grp_ohe_East Elmhurst,neighbourhood_grp,9.534400460681452e-05,neighbourhood: East Elmhurst,Random forest
+neighbourhood_grp_ohe_Sheepshead Bay,neighbourhood_grp,8.617840739816676e-05,neighbourhood: Sheepshead Bay,Random forest
+neighbourhood_grp_ohe_Canarsie,neighbourhood_grp,8.549018795737813e-05,neighbourhood: Canarsie,Random forest
+neighbourhood_grp_ohe_Rosedale,neighbourhood_grp,8.420231180427273e-05,neighbourhood: Rosedale,Random forest
+neighbourhood_grp_ohe_Brighton Beach,neighbourhood_grp,8.390953145380624e-05,neighbourhood: Brighton Beach,Random forest
+neighbourhood_grp_ohe_Richmond Hill,neighbourhood_grp,8.221107750827657e-05,neighbourhood: Richmond Hill,Random forest
+neighbourhood_grp_ohe_Kensington,neighbourhood_grp,8.135425741780915e-05,neighbourhood: Kensington,Random forest
+neighbourhood_grp_ohe_Washington Heights,neighbourhood_grp,7.869597584438493e-05,neighbourhood: Washington Heights,Random forest
+neighbourhood_grp_ohe_Far Rockaway,neighbourhood_grp,7.851957713486248e-05,neighbourhood: Far Rockaway,Random forest
+neighbourhood_grp_ohe_Little Italy,neighbourhood_grp,7.755652517631915e-05,neighbourhood: Little Italy,Random forest
+neighbourhood_grp_ohe_Ridgewood,neighbourhood_grp,7.622679067957078e-05,neighbourhood: Ridgewood,Random forest
+neighbourhood_grp_ohe_Clason Point,neighbourhood_grp,7.555031624956535e-05,neighbourhood: Clason Point,Random forest
+neighbourhood_grp_ohe_South Slope,neighbourhood_grp,7.541690095407867e-05,neighbourhood: South Slope,Random forest
+neighbourhood_grp_ohe_St. Albans,neighbourhood_grp,7.393969705688965e-05,neighbourhood: St. Albans,Random forest
+neighbourhood_grp_ohe_Flatiron District,neighbourhood_grp,6.495066273279e-05,neighbourhood: Flatiron District,Random forest
+neighbourhood_grp_ohe_Wakefield,neighbourhood_grp,5.868755349915402e-05,neighbourhood: Wakefield,Random forest
+neighbourhood_grp_ohe_South Ozone Park,neighbourhood_grp,5.452642776222372e-05,neighbourhood: South Ozone Park,Random forest
+neighbourhood_grp_ohe_Laurelton,neighbourhood_grp,5.2339164940722825e-05,neighbourhood: Laurelton,Random forest
+neighbourhood_grp_ohe_Fort Hamilton,neighbourhood_grp,5.053662648118843e-05,neighbourhood: Fort Hamilton,Random forest
+neighbourhood_grp_ohe_Windsor Terrace,neighbourhood_grp,4.866049482691567e-05,neighbourhood: Windsor Terrace,Random forest
+neighbourhood_grp_ohe_Tompkinsville,neighbourhood_grp,4.8013654279013634e-05,neighbourhood: Tompkinsville,Random forest
+neighbourhood_grp_ohe_Howard Beach,neighbourhood_grp,4.7686304816730725e-05,neighbourhood: Howard Beach,Random forest
+neighbourhood_grp_ohe_Gravesend,neighbourhood_grp,4.755211666373518e-05,neighbourhood: Gravesend,Random forest
+neighbourhood_grp_ohe_Nolita,neighbourhood_grp,4.751157366357533e-05,neighbourhood: Nolita,Random forest
+neighbourhood_grp_ohe_Borough Park,neighbourhood_grp,4.730892373267523e-05,neighbourhood: Borough Park,Random forest
+neighbourhood_grp_ohe_Kingsbridge,neighbourhood_grp,4.702332816202995e-05,neighbourhood: Kingsbridge,Random forest
+neighbourhood_grp_ohe_Cobble Hill,neighbourhood_grp,4.564690938506217e-05,neighbourhood: Cobble Hill,Random forest
+neighbourhood_grp_ohe_Corona,neighbourhood_grp,4.128976823827033e-05,neighbourhood: Corona,Random forest
+neighbourhood_grp_ohe_Bay Ridge,neighbourhood_grp,4.091447669287074e-05,neighbourhood: Bay Ridge,Random forest
+neighbourhood_grp_ohe_Elmhurst,neighbourhood_grp,3.963234875174336e-05,neighbourhood: Elmhurst,Random forest
+neighbourhood_grp_ohe_Rockaway Beach,neighbourhood_grp,3.789239662567747e-05,neighbourhood: Rockaway Beach,Random forest
+neighbourhood_grp_ohe_Pelham Gardens,neighbourhood_grp,3.679792198388476e-05,neighbourhood: Pelham Gardens,Random forest
+neighbourhood_grp_ohe_Edenwald,neighbourhood_grp,3.3702158074194674e-05,neighbourhood: Edenwald,Random forest
+neighbourhood_grp_ohe_Concourse,neighbourhood_grp,3.283801460396685e-05,neighbourhood: Concourse,Random forest
+neighbourhood_grp_ohe_Midwood,neighbourhood_grp,3.1467017546438256e-05,neighbourhood: Midwood,Random forest
+neighbourhood_grp_ohe_Fordham,neighbourhood_grp,3.139980672231142e-05,neighbourhood: Fordham,Random forest
+neighbourhood_grp_ohe_Red Hook,neighbourhood_grp,2.9825446992825522e-05,neighbourhood: Red Hook,Random forest
+neighbourhood_grp_ohe_Port Morris,neighbourhood_grp,2.8709651698661577e-05,neighbourhood: Port Morris,Random forest
+neighbourhood_grp_ohe_Glendale,neighbourhood_grp,2.853093990630926e-05,neighbourhood: Glendale,Random forest
+neighbourhood_grp_ohe_Mott Haven,neighbourhood_grp,2.7557053027562725e-05,neighbourhood: Mott Haven,Random forest
+neighbourhood_grp_ohe_Bensonhurst,neighbourhood_grp,2.6974670980923014e-05,neighbourhood: Bensonhurst,Random forest
+neighbourhood_grp_ohe_Woodhaven,neighbourhood_grp,2.6599695142647777e-05,neighbourhood: Woodhaven,Random forest
+neighbourhood_grp_ohe_Queens Village,neighbourhood_grp,2.650656180733777e-05,neighbourhood: Queens Village,Random forest
+neighbourhood_grp_ohe_Randall Manor,neighbourhood_grp,2.314295233316862e-05,neighbourhood: Randall Manor,Random forest
+neighbourhood_grp_ohe_Rego Park,neighbourhood_grp,2.2187767691293984e-05,neighbourhood: Rego Park,Random forest
+neighbourhood_grp_ohe_College Point,neighbourhood_grp,1.99250747518832e-05,neighbourhood: College Point,Random forest
+neighbourhood_grp_ohe_Norwood,neighbourhood_grp,1.98909423682954e-05,neighbourhood: Norwood,Random forest
+neighbourhood_grp_ohe_Longwood,neighbourhood_grp,1.9162974247334195e-05,neighbourhood: Longwood,Random forest
+neighbourhood_grp_ohe_Fresh Meadows,neighbourhood_grp,1.8818047770982908e-05,neighbourhood: Fresh Meadows,Random forest
+neighbourhood_grp_ohe_Mount Hope,neighbourhood_grp,1.6739828243347103e-05,neighbourhood: Mount Hope,Random forest
+neighbourhood_grp_ohe_Concourse Village,neighbourhood_grp,1.4590159427830559e-05,neighbourhood: Concourse Village,Random forest
+neighbourhood_grp_ohe_Williamsbridge,neighbourhood_grp,1.4289913326232789e-05,neighbourhood: Williamsbridge,Random forest
+neighbourhood_grp_ohe_West Brighton,neighbourhood_grp,1.404788223897625e-05,neighbourhood: West Brighton,Random forest
+neighbourhood_grp_ohe_Throgs Neck,neighbourhood_grp,1.3959260846732357e-05,neighbourhood: Throgs Neck,Random forest
+neighbourhood_grp_ohe_St. George,neighbourhood_grp,1.3632430008940738e-05,neighbourhood: St. George,Random forest
+neighbourhood_grp_ohe_Jamaica Estates,neighbourhood_grp,1.2024336665834263e-05,neighbourhood: Jamaica Estates,Random forest
+neighbourhood_grp_ohe_Briarwood,neighbourhood_grp,8.97967697933346e-06,neighbourhood: Briarwood,Random forest
+neighbourhood_grp_ohe_Morris Park,neighbourhood_grp,4.703523203596905e-06,neighbourhood: Morris Park,Random forest
+shared_bath_imp,shared_bath,0.12818844677239605,shared bath,Gradient-boosted trees
+km_to_midtown_imp,km_to_midtown,0.09708295936665147,km to midtown,Gradient-boosted trees
+availability_30_imp,availability_30,0.0922238181229347,availability 30,Gradient-boosted trees
+log_host_listings_imp,log_host_listings,0.08231326703814315,log host listings,Gradient-boosted trees
+accommodates_imp,accommodates,0.05786286836438993,accommodates,Gradient-boosted trees
+log_min_nights_imp,log_min_nights,0.054194541428753525,log min nights,Gradient-boosted trees
+longitude_imp,longitude,0.05147285952976776,longitude,Gradient-boosted trees
+bathrooms_imp,bathrooms,0.0355708116770341,bathrooms,Gradient-boosted trees
+bedrooms_imp,bedrooms,0.03552008527730367,bedrooms,Gradient-boosted trees
+am_dishwasher_imp,am_dishwasher,0.03381341403884924,amenity: dishwasher,Gradient-boosted trees
+amenities_count_imp,amenities_count,0.03159826885617739,amenities count,Gradient-boosted trees
+log_reviews_ltm_imp,log_reviews_ltm,0.01989448690867172,log reviews (last 12 mo),Gradient-boosted trees
+availability_365_imp,availability_365,0.017181561547845656,availability 365,Gradient-boosted trees
+review_scores_rating_imp,review_scores_rating,0.016750744938259152,review scores rating,Gradient-boosted trees
+latitude_imp,latitude,0.0166032998571509,latitude,Gradient-boosted trees
+hosts_time_as_host_years_imp,hosts_time_as_host_years,0.016322274058310878,hosts time as host years,Gradient-boosted trees
+room_type_ohe_Private room,room_type,0.014916790950212816,room type: Private room,Gradient-boosted trees
+stay_type_ohe_30+ nights,stay_type,0.014423258594437148,stay type: 30+ nights,Gradient-boosted trees
+review_scores_cleanliness_imp,review_scores_cleanliness,0.012845149948590224,review scores cleanliness,Gradient-boosted trees
+am_gym_imp,am_gym,0.011339330278404324,amenity: gym,Gradient-boosted trees
+property_grp_ohe_Room in hotel,property_grp,0.01124225934450564,property: Room in hotel,Gradient-boosted trees
+is_superhost_imp,is_superhost,0.010443749045439368,is superhost,Gradient-boosted trees
+property_grp_ohe_Private room in rental unit,property_grp,0.00946716185729157,property: Private room in rental unit,Gradient-boosted trees
+beds_imp,beds,0.009397616781953761,beds,Gradient-boosted trees
+am_self_checkin_imp,am_self_checkin,0.008051384515661028,amenity: self check-in,Gradient-boosted trees
+am_washer_imp,am_washer,0.007011960476222664,amenity: washer,Gradient-boosted trees
+room_type_ohe_Entire home/apt,room_type,0.006700932146645398,room type: Entire home/apt,Gradient-boosted trees
+log_reviews_imp,log_reviews,0.005692161629545942,log reviews,Gradient-boosted trees
+review_scores_location_imp,review_scores_location,0.005459967264862025,review scores location,Gradient-boosted trees
+am_pets_allowed_imp,am_pets_allowed,0.005291906292360444,amenity: pets allowed,Gradient-boosted trees
+property_grp_ohe_Other,property_grp,0.005210321864125958,property: Other,Gradient-boosted trees
+am_bedroom_lock_imp,am_bedroom_lock,0.004119107302286371,amenity: lock on bedroom door,Gradient-boosted trees
+license_status_ohe_Not reported,license_status,0.003993335341104727,license status: Not reported,Gradient-boosted trees
+am_building_staff_imp,am_building_staff,0.003191105470759548,amenity: building staff,Gradient-boosted trees
+property_grp_ohe_Entire rental unit,property_grp,0.003152722198225142,property: Entire rental unit,Gradient-boosted trees
+review_scores_value_imp,review_scores_value,0.0028163690139415224,review scores value,Gradient-boosted trees
+am_outdoor_dining_imp,am_outdoor_dining,0.0021436186962766482,amenity: outdoor dining area,Gradient-boosted trees
+property_grp_ohe_Entire loft,property_grp,0.002087258223724203,property: Entire loft,Gradient-boosted trees
+property_grp_ohe_Entire condo,property_grp,0.0019631074001754526,property: Entire condo,Gradient-boosted trees
+neighbourhood_grp_ohe_Gramercy,neighbourhood_grp,0.001890499018658284,neighbourhood: Gramercy,Gradient-boosted trees
+am_elevator_imp,am_elevator,0.0018474016053557855,amenity: elevator,Gradient-boosted trees
+neighbourhood_grp_ohe_Hell's Kitchen,neighbourhood_grp,0.0017905955375783422,neighbourhood: Hell's Kitchen,Gradient-boosted trees
+property_grp_ohe_Private room in home,property_grp,0.0016431462085337888,property: Private room in home,Gradient-boosted trees
+neighbourhood_grp_ohe_West Village,neighbourhood_grp,0.0015668040065317578,neighbourhood: West Village,Gradient-boosted trees
+neighbourhood_grp_ohe_Long Island City,neighbourhood_grp,0.001403315878916442,neighbourhood: Long Island City,Gradient-boosted trees
+neighbourhood_grp_ohe_Bayside,neighbourhood_grp,0.0012862630268817015,neighbourhood: Bayside,Gradient-boosted trees
+neighbourhood_grp_ohe_Other Brooklyn,neighbourhood_grp,0.0012411008810767916,neighbourhood: Other Brooklyn,Gradient-boosted trees
+neighbourhood_grp_ohe_Greenwich Village,neighbourhood_grp,0.001236756201459207,neighbourhood: Greenwich Village,Gradient-boosted trees
+neighbourhood_grp_ohe_Arverne,neighbourhood_grp,0.001209043154390886,neighbourhood: Arverne,Gradient-boosted trees
+neighbourhood_grp_ohe_Boerum Hill,neighbourhood_grp,0.0011733755562017825,neighbourhood: Boerum Hill,Gradient-boosted trees
+am_workspace_imp,am_workspace,0.0011324240382202385,amenity: dedicated workspace,Gradient-boosted trees
+neighbourhood_grp_ohe_Kew Gardens Hills,neighbourhood_grp,0.0011159367366165847,neighbourhood: Kew Gardens Hills,Gradient-boosted trees
+am_air_conditioning_imp,am_air_conditioning,0.0010687123481557478,amenity: air conditioning,Gradient-boosted trees
+license_status_ohe_Exempt,license_status,0.0010618960030325097,license status: Exempt,Gradient-boosted trees
+property_grp_ohe_Private room in townhouse,property_grp,0.001054785779324512,property: Private room in townhouse,Gradient-boosted trees
+am_free_parking_imp,am_free_parking,0.0010471782104348236,amenity: free parking on premises,Gradient-boosted trees
+neighbourhood_grp_ohe_Chinatown,neighbourhood_grp,0.0010363255244925998,neighbourhood: Chinatown,Gradient-boosted trees
+neighbourhood_grp_ohe_Bergen Beach,neighbourhood_grp,0.0009620188274156145,neighbourhood: Bergen Beach,Gradient-boosted trees
+neighbourhood_grp_ohe_Ozone Park,neighbourhood_grp,0.0008533241507928115,neighbourhood: Ozone Park,Gradient-boosted trees
+neighbourhood_grp_ohe_Greenpoint,neighbourhood_grp,0.0008069417482737611,neighbourhood: Greenpoint,Gradient-boosted trees
+neighbourhood_grp_ohe_SoHo,neighbourhood_grp,0.0008037631563542759,neighbourhood: SoHo,Gradient-boosted trees
+neighbourhood_grp_ohe_Williamsburg,neighbourhood_grp,0.0007903401653985604,neighbourhood: Williamsburg,Gradient-boosted trees
+neighbourhood_grp_ohe_Other Staten Island,neighbourhood_grp,0.0007603816891352363,neighbourhood: Other Staten Island,Gradient-boosted trees
+neighbourhood_grp_ohe_Bedford-Stuyvesant,neighbourhood_grp,0.0007385151566998025,neighbourhood: Bedford-Stuyvesant,Gradient-boosted trees
+neighbourhood_grp_ohe_Financial District,neighbourhood_grp,0.0007268664152858675,neighbourhood: Financial District,Gradient-boosted trees
+neighbourhood_grp_ohe_Forest Hills,neighbourhood_grp,0.0006841696828627135,neighbourhood: Forest Hills,Gradient-boosted trees
+neighbourhood_grp_ohe_Inwood,neighbourhood_grp,0.0006460296102026367,neighbourhood: Inwood,Gradient-boosted trees
+neighbourhood_grp_ohe_Theater District,neighbourhood_grp,0.0006250225024857969,neighbourhood: Theater District,Gradient-boosted trees
+neighbourhood_grp_ohe_Downtown Brooklyn,neighbourhood_grp,0.0006014453327447727,neighbourhood: Downtown Brooklyn,Gradient-boosted trees
+neighbourhood_grp_ohe_Midtown,neighbourhood_grp,0.0005785355340982707,neighbourhood: Midtown,Gradient-boosted trees
+neighbourhood_grp_ohe_Lower East Side,neighbourhood_grp,0.0005636887036286293,neighbourhood: Lower East Side,Gradient-boosted trees
+neighbourhood_grp_ohe_Jackson Heights,neighbourhood_grp,0.000562173120105324,neighbourhood: Jackson Heights,Gradient-boosted trees
+neighbourhood_grp_ohe_Springfield Gardens,neighbourhood_grp,0.0005265559606690449,neighbourhood: Springfield Gardens,Gradient-boosted trees
+neighbourhood_grp_ohe_Far Rockaway,neighbourhood_grp,0.000526470714762704,neighbourhood: Far Rockaway,Gradient-boosted trees
+am_dryer_imp,am_dryer,0.0005227445782870285,amenity: dryer,Gradient-boosted trees
+am_private_entrance_imp,am_private_entrance,0.0005113407774833645,amenity: private entrance,Gradient-boosted trees
+property_grp_ohe_Entire townhouse,property_grp,0.0005071816435646044,property: Entire townhouse,Gradient-boosted trees
+neighbourhood_grp_ohe_Sunset Park,neighbourhood_grp,0.0004952456788027937,neighbourhood: Sunset Park,Gradient-boosted trees
+neighbourhood_grp_ohe_Kips Bay,neighbourhood_grp,0.0004788814643948877,neighbourhood: Kips Bay,Gradient-boosted trees
+identity_verified_imp,identity_verified,0.00047278983282338,identity verified,Gradient-boosted trees
+neighbourhood_grp_ohe_Flatbush,neighbourhood_grp,0.0004614202112685783,neighbourhood: Flatbush,Gradient-boosted trees
+neighbourhood_grp_ohe_Allerton,neighbourhood_grp,0.00045906769426923386,neighbourhood: Allerton,Gradient-boosted trees
+neighbourhood_grp_ohe_Upper East Side,neighbourhood_grp,0.0004455960031719412,neighbourhood: Upper East Side,Gradient-boosted trees
+neighbourhood_grp_ohe_Fort Greene,neighbourhood_grp,0.0004340518497869352,neighbourhood: Fort Greene,Gradient-boosted trees
+room_type_ohe_Hotel room,room_type,0.0004000801421651718,room type: Hotel room,Gradient-boosted trees
+neighbourhood_grp_ohe_East Harlem,neighbourhood_grp,0.00039533466392732117,neighbourhood: East Harlem,Gradient-boosted trees
+neighbourhood_grp_ohe_Chelsea,neighbourhood_grp,0.00039206287229891267,neighbourhood: Chelsea,Gradient-boosted trees
+neighbourhood_grp_ohe_Brownsville,neighbourhood_grp,0.0003784429095609313,neighbourhood: Brownsville,Gradient-boosted trees
+am_bathtub_imp,am_bathtub,0.00037104604354774596,amenity: bathtub,Gradient-boosted trees
+neighbourhood_grp_ohe_Cobble Hill,neighbourhood_grp,0.0003555227373257948,neighbourhood: Cobble Hill,Gradient-boosted trees
+property_grp_ohe_Entire guest suite,property_grp,0.00033595593833282223,property: Entire guest suite,Gradient-boosted trees
+has_reviews_imp,has_reviews,0.00033224375946306456,has reviews,Gradient-boosted trees
+neighbourhood_grp_ohe_Tribeca,neighbourhood_grp,0.00032801620357579076,neighbourhood: Tribeca,Gradient-boosted trees
+neighbourhood_grp_ohe_Carroll Gardens,neighbourhood_grp,0.0003244951937940344,neighbourhood: Carroll Gardens,Gradient-boosted trees
+neighbourhood_grp_ohe_Sheepshead Bay,neighbourhood_grp,0.0003204150437844331,neighbourhood: Sheepshead Bay,Gradient-boosted trees
+neighbourhood_grp_ohe_East Flatbush,neighbourhood_grp,0.00030997748868259934,neighbourhood: East Flatbush,Gradient-boosted trees
+neighbourhood_grp_ohe_Gowanus,neighbourhood_grp,0.0002996209975279629,neighbourhood: Gowanus,Gradient-boosted trees
+neighbourhood_grp_ohe_Sunnyside,neighbourhood_grp,0.0002972261429564144,neighbourhood: Sunnyside,Gradient-boosted trees
+neighbourhood_grp_ohe_Edenwald,neighbourhood_grp,0.0002834311648360355,neighbourhood: Edenwald,Gradient-boosted trees
+property_grp_ohe_Entire home,property_grp,0.00027103335874409276,property: Entire home,Gradient-boosted trees
+neighbourhood_grp_ohe_Upper West Side,neighbourhood_grp,0.0002697373980798025,neighbourhood: Upper West Side,Gradient-boosted trees
+neighbourhood_grp_ohe_Williamsbridge,neighbourhood_grp,0.00023838597599496863,neighbourhood: Williamsbridge,Gradient-boosted trees
+neighbourhood_grp_ohe_Clason Point,neighbourhood_grp,0.00023041703751473816,neighbourhood: Clason Point,Gradient-boosted trees
+am_tv_imp,am_tv,0.00022994713742307199,amenity: tv,Gradient-boosted trees
+neighbourhood_grp_ohe_Prospect Heights,neighbourhood_grp,0.00022869689532366782,neighbourhood: Prospect Heights,Gradient-boosted trees
+neighbourhood_grp_ohe_East Village,neighbourhood_grp,0.00022341715998202657,neighbourhood: East Village,Gradient-boosted trees
+neighbourhood_grp_ohe_Kingsbridge,neighbourhood_grp,0.00022227153462641154,neighbourhood: Kingsbridge,Gradient-boosted trees
+neighbourhood_grp_ohe_Rosedale,neighbourhood_grp,0.0002062752069854291,neighbourhood: Rosedale,Gradient-boosted trees
+neighbourhood_grp_ohe_Kensington,neighbourhood_grp,0.0002062721827242572,neighbourhood: Kensington,Gradient-boosted trees
+neighbourhood_grp_ohe_Wakefield,neighbourhood_grp,0.00019340114581679725,neighbourhood: Wakefield,Gradient-boosted trees
+neighbourhood_grp_ohe_Concourse Village,neighbourhood_grp,0.0001926756504032027,neighbourhood: Concourse Village,Gradient-boosted trees
+neighbourhood_grp_ohe_Murray Hill,neighbourhood_grp,0.00019247998030832167,neighbourhood: Murray Hill,Gradient-boosted trees
+neighbourhood_grp_ohe_Bushwick,neighbourhood_grp,0.0001828183805339855,neighbourhood: Bushwick,Gradient-boosted trees
+neighbourhood_grp_ohe_Astoria,neighbourhood_grp,0.0001826075452390777,neighbourhood: Astoria,Gradient-boosted trees
+neighbourhood_grp_ohe_Harlem,neighbourhood_grp,0.0001756443931944244,neighbourhood: Harlem,Gradient-boosted trees
+neighbourhood_grp_ohe_Gravesend,neighbourhood_grp,0.00017165794296139373,neighbourhood: Gravesend,Gradient-boosted trees
+neighbourhood_grp_ohe_Rego Park,neighbourhood_grp,0.00015089462128568,neighbourhood: Rego Park,Gradient-boosted trees
+neighbourhood_grp_ohe_West Brighton,neighbourhood_grp,0.00015039136053118584,neighbourhood: West Brighton,Gradient-boosted trees
+neighbourhood_grp_ohe_Pelham Gardens,neighbourhood_grp,0.0001465655636667635,neighbourhood: Pelham Gardens,Gradient-boosted trees
+neighbourhood_grp_ohe_Glendale,neighbourhood_grp,0.00014353364313463764,neighbourhood: Glendale,Gradient-boosted trees
+neighbourhood_grp_ohe_Little Italy,neighbourhood_grp,0.00013392525913101075,neighbourhood: Little Italy,Gradient-boosted trees
+neighbourhood_grp_ohe_Maspeth,neighbourhood_grp,0.00012970376932848165,neighbourhood: Maspeth,Gradient-boosted trees
+neighbourhood_grp_ohe_Jamaica,neighbourhood_grp,0.0001294140670552503,neighbourhood: Jamaica,Gradient-boosted trees
+neighbourhood_grp_ohe_St. George,neighbourhood_grp,0.00012736589470848641,neighbourhood: St. George,Gradient-boosted trees
+neighbourhood_grp_ohe_Concourse,neighbourhood_grp,0.0001264757700904953,neighbourhood: Concourse,Gradient-boosted trees
+neighbourhood_grp_ohe_Ditmars Steinway,neighbourhood_grp,0.0001256996439300834,neighbourhood: Ditmars Steinway,Gradient-boosted trees
+neighbourhood_grp_ohe_Mott Haven,neighbourhood_grp,0.00011953187663142841,neighbourhood: Mott Haven,Gradient-boosted trees
+neighbourhood_grp_ohe_Flatlands,neighbourhood_grp,0.00011567835051515448,neighbourhood: Flatlands,Gradient-boosted trees
+neighbourhood_grp_ohe_Morningside Heights,neighbourhood_grp,0.00010760245253762062,neighbourhood: Morningside Heights,Gradient-boosted trees
+neighbourhood_grp_ohe_Canarsie,neighbourhood_grp,0.0001068445211029624,neighbourhood: Canarsie,Gradient-boosted trees
+neighbourhood_grp_ohe_Cypress Hills,neighbourhood_grp,0.00010684024931325246,neighbourhood: Cypress Hills,Gradient-boosted trees
+neighbourhood_grp_ohe_Howard Beach,neighbourhood_grp,0.00010316416070290212,neighbourhood: Howard Beach,Gradient-boosted trees
+neighbourhood_grp_ohe_Other Manhattan,neighbourhood_grp,9.927974771335451e-05,neighbourhood: Other Manhattan,Gradient-boosted trees
+neighbourhood_grp_ohe_Laurelton,neighbourhood_grp,9.83442386248877e-05,neighbourhood: Laurelton,Gradient-boosted trees
+neighbourhood_grp_ohe_Park Slope,neighbourhood_grp,9.410819686586142e-05,neighbourhood: Park Slope,Gradient-boosted trees
+neighbourhood_grp_ohe_Richmond Hill,neighbourhood_grp,9.078940488241555e-05,neighbourhood: Richmond Hill,Gradient-boosted trees
+neighbourhood_grp_ohe_Cambria Heights,neighbourhood_grp,8.961252055857211e-05,neighbourhood: Cambria Heights,Gradient-boosted trees
+neighbourhood_grp_ohe_Nolita,neighbourhood_grp,8.759254292768828e-05,neighbourhood: Nolita,Gradient-boosted trees
+neighbourhood_grp_ohe_East New York,neighbourhood_grp,8.530775393778834e-05,neighbourhood: East New York,Gradient-boosted trees
+neighbourhood_grp_ohe_Washington Heights,neighbourhood_grp,8.334394380003223e-05,neighbourhood: Washington Heights,Gradient-boosted trees
+neighbourhood_grp_ohe_East Elmhurst,neighbourhood_grp,7.118307855487278e-05,neighbourhood: East Elmhurst,Gradient-boosted trees
+neighbourhood_grp_ohe_Tompkinsville,neighbourhood_grp,6.771736577691746e-05,neighbourhood: Tompkinsville,Gradient-boosted trees
+neighbourhood_grp_ohe_Woodhaven,neighbourhood_grp,6.75206872133541e-05,neighbourhood: Woodhaven,Gradient-boosted trees
+neighbourhood_grp_ohe_Briarwood,neighbourhood_grp,5.93357343342551e-05,neighbourhood: Briarwood,Gradient-boosted trees
+neighbourhood_grp_ohe_Randall Manor,neighbourhood_grp,5.721885400368592e-05,neighbourhood: Randall Manor,Gradient-boosted trees
+neighbourhood_grp_ohe_College Point,neighbourhood_grp,4.862306967384281e-05,neighbourhood: College Point,Gradient-boosted trees
+neighbourhood_grp_ohe_Bensonhurst,neighbourhood_grp,4.694106301589166e-05,neighbourhood: Bensonhurst,Gradient-boosted trees
+neighbourhood_grp_ohe_Elmhurst,neighbourhood_grp,4.4909524358030086e-05,neighbourhood: Elmhurst,Gradient-boosted trees
+neighbourhood_grp_ohe_Longwood,neighbourhood_grp,4.116403066219772e-05,neighbourhood: Longwood,Gradient-boosted trees
+neighbourhood_grp_ohe_Midwood,neighbourhood_grp,3.815429008079128e-05,neighbourhood: Midwood,Gradient-boosted trees
+neighbourhood_grp_ohe_Red Hook,neighbourhood_grp,3.5528451116778335e-05,neighbourhood: Red Hook,Gradient-boosted trees
+neighbourhood_grp_ohe_Flatiron District,neighbourhood_grp,1.630570528734994e-05,neighbourhood: Flatiron District,Gradient-boosted trees
+neighbourhood_grp_ohe_Crown Heights,neighbourhood_grp,7.374025290299912e-06,neighbourhood: Crown Heights,Gradient-boosted trees
+neighbourhood_grp_ohe_Port Morris,neighbourhood_grp,0.0,neighbourhood: Port Morris,Gradient-boosted trees
+neighbourhood_grp_ohe_Norwood,neighbourhood_grp,0.0,neighbourhood: Norwood,Gradient-boosted trees
+neighbourhood_grp_ohe_Borough Park,neighbourhood_grp,0.0,neighbourhood: Borough Park,Gradient-boosted trees
+neighbourhood_grp_ohe_South Ozone Park,neighbourhood_grp,0.0,neighbourhood: South Ozone Park,Gradient-boosted trees
+neighbourhood_grp_ohe_Brighton Beach,neighbourhood_grp,0.0,neighbourhood: Brighton Beach,Gradient-boosted trees
+neighbourhood_grp_ohe_Fordham,neighbourhood_grp,0.0,neighbourhood: Fordham,Gradient-boosted trees
+neighbourhood_grp_ohe_Morris Park,neighbourhood_grp,0.0,neighbourhood: Morris Park,Gradient-boosted trees
+neighbourhood_grp_ohe_Fresh Meadows,neighbourhood_grp,0.0,neighbourhood: Fresh Meadows,Gradient-boosted trees
+neighbourhood_grp_ohe_Fort Hamilton,neighbourhood_grp,0.0,neighbourhood: Fort Hamilton,Gradient-boosted trees
+neighbourhood_grp_ohe_Jamaica Estates,neighbourhood_grp,0.0,neighbourhood: Jamaica Estates,Gradient-boosted trees
+neighbourhood_grp_ohe_Throgs Neck,neighbourhood_grp,0.0,neighbourhood: Throgs Neck,Gradient-boosted trees
+neighbourhood_grp_ohe_Other Bronx,neighbourhood_grp,0.0,neighbourhood: Other Bronx,Gradient-boosted trees
+neighbourhood_grp_ohe_Ridgewood,neighbourhood_grp,0.0,neighbourhood: Ridgewood,Gradient-boosted trees
+neighbourhood_grp_ohe_Flushing,neighbourhood_grp,0.0,neighbourhood: Flushing,Gradient-boosted trees
+neighbourhood_grp_ohe_Bay Ridge,neighbourhood_grp,0.0,neighbourhood: Bay Ridge,Gradient-boosted trees
+neighbourhood_grp_ohe_Other Queens,neighbourhood_grp,0.0,neighbourhood: Other Queens,Gradient-boosted trees
+neighbourhood_grp_ohe_Woodside,neighbourhood_grp,0.0,neighbourhood: Woodside,Gradient-boosted trees
+neighbourhood_grp_ohe_South Slope,neighbourhood_grp,0.0,neighbourhood: South Slope,Gradient-boosted trees
+neighbourhood_grp_ohe_Windsor Terrace,neighbourhood_grp,0.0,neighbourhood: Windsor Terrace,Gradient-boosted trees
+neighbourhood_grp_ohe_Queens Village,neighbourhood_grp,0.0,neighbourhood: Queens Village,Gradient-boosted trees
+property_grp_ohe_Private room in condo,property_grp,0.0,property: Private room in condo,Gradient-boosted trees
+neighbourhood_grp_ohe_Rockaway Beach,neighbourhood_grp,0.0,neighbourhood: Rockaway Beach,Gradient-boosted trees
+neighbourhood_grp_ohe_Mount Hope,neighbourhood_grp,0.0,neighbourhood: Mount Hope,Gradient-boosted trees
+neighbourhood_grp_ohe_Clinton Hill,neighbourhood_grp,0.0,neighbourhood: Clinton Hill,Gradient-boosted trees
+neighbourhood_grp_ohe_Prospect-Lefferts Gardens,neighbourhood_grp,0.0,neighbourhood: Prospect-Lefferts Gardens,Gradient-boosted trees
+neighbourhood_grp_ohe_St. Albans,neighbourhood_grp,0.0,neighbourhood: St. Albans,Gradient-boosted trees
+neighbourhood_grp_ohe_Corona,neighbourhood_grp,0.0,neighbourhood: Corona,Gradient-boosted trees

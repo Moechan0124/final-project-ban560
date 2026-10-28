@@ -1,0 +1,9 @@
+# Python packages (tested with Python 3.13 on macOS). Spark also needs Java 17: see README.md
+pyspark==4.2.0
+pandas==2.3.3
+numpy==2.3.5
+matplotlib==3.10.6
+jinja2==3.1.6        # pandas Styler tables in notebook 01
+jupyter==1.1.1
+nbconvert==7.16.6    # run notebooks from the command line
+ipykernel==6.31.0
