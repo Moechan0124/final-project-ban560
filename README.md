@@ -12,7 +12,7 @@ Airbnb listings and how well price can be predicted. It answers three research q
 ## Repository layout
 
 ```
-listings.csv                    Inside Airbnb NYC detailed listings, scraped 2026-09-14/15 (input data)
+listings.csv                    Inside Airbnb NYC detailed listings, scraped 2026-09-14/15 (input data, not in git)
 code/
   01_EDA_PySpark.ipynb          cleaning, descriptive statistics, figures 1-7, neighborhood demand (RQ3)
   02_Modeling_PySpark.ipynb     baseline, OLS, Elastic Net, random forest, GBT; CV; importance (RQ1, RQ2)
@@ -20,9 +20,22 @@ code/
   plot_style.py                 shared figure style
 figures/                        all PNG figures (fig1-7 from notebook 01, figM1-M6 from notebook 02)
 outputs/                        CSV tables written by the notebooks
-models/                         saved Spark ML pipeline models (created by notebook 02)
+models/                         saved Spark ML pipeline models (created by notebook 02, not in git)
 requirements.txt                Python package versions
+Project_Airbnb.pdf              project proposal (Sept 2026)
+Project Introduction.docx       Project Introduction as submitted (Oct 2026)
+Project_Introduction_Airbnb.docx, Data_Analysis_Package_Introduction.docx
+                                drafts and the data package handed to the writing team
 ```
+
+`kafka_streaming_lab_advanced.ipynb` in this repository is a separate course lab, not part of this project.
+
+**Large files kept out of git:**
+
+- `listings.csv` (74 MB): download it as described under *Setup*.
+- `models/` (64 MB): rebuilt by notebook 02, or download `models.zip` from the
+  [models-v1 release](https://github.com/Moechan0124/final-project-ban560/releases/tag/models-v1)
+  and unzip it in the project root.
 
 ## Setup
 
