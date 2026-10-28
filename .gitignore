@@ -16,6 +16,16 @@ derby.log
 .DS_Store
 ~$*
 
-# Documents with personal names (kept locally, not published)
+# Documents are never pushed without the owner's explicit approval of that specific file.
+# To publish an approved file, add a "!filename" exception line below.
+*.doc
 *.docx
 *.pdf
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.key
+*.pages
+*.odt
+*.rtf
