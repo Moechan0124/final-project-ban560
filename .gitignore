@@ -15,3 +15,7 @@ derby.log
 # OS and Office temp files
 .DS_Store
 ~$*
+
+# Documents with personal names (kept locally, not published)
+*.docx
+*.pdf

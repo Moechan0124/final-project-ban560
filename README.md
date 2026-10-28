@@ -22,10 +22,6 @@ figures/                        all PNG figures (fig1-7 from notebook 01, figM1-
 outputs/                        CSV tables written by the notebooks
 models/                         saved Spark ML pipeline models (created by notebook 02, not in git)
 requirements.txt                Python package versions
-Project_Airbnb.pdf              project proposal (Sept 2026)
-Project Introduction.docx       Project Introduction as submitted (Oct 2026)
-Project_Introduction_Airbnb.docx, Data_Analysis_Package_Introduction.docx
-                                drafts and the data package handed to the writing team
 ```
 
 `kafka_streaming_lab_advanced.ipynb` in this repository is a separate course lab, not part of this project.
