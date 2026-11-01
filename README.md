@@ -20,7 +20,9 @@ code/
   airbnb_prep.py                shared cleaning, feature engineering and pipeline code
   plot_style.py                 shared figure style
 figures/                        all PNG figures (fig1-7 from notebook 01, figM1-M6 from 02, figD1-D3 from 03)
-outputs/                        CSV tables written by the notebooks
+outputs/                        CSV tables written by the notebooks (outputs/archive/ keeps superseded versions)
+CORRECTIONS.md                  analysis errors found, how they were fixed, and their effect
+tools/                          script that builds the Results package from outputs/ and figures/
 models/                         saved Spark ML pipeline models (created by notebook 02, not in git)
 requirements.txt                Python package versions
 ```
