@@ -6,6 +6,8 @@ extra features used only for modeling.
 """
 import os
 
+from pyspark.ml import Pipeline
+from pyspark.ml.feature import Imputer, OneHotEncoder, StringIndexer, VectorAssembler
 from pyspark.sql import DataFrame, SparkSession, functions as F, types as T
 
 NUMERIC_COLS = [
@@ -127,3 +129,25 @@ def add_model_features(df: DataFrame, min_hood_listings: int = 20, top_property_
     for col, name in AMENITY_FLAGS.items():
         out = out.withColumn(col, F.coalesce(F.array_contains("amenity_list", name).cast("int"), F.lit(0)))
     return out
+
+
+# Model features, as in notebook 02
+CAT_FEATURES = ["neighbourhood_grp", "room_type", "property_grp", "stay_type", "license_status"]
+NUM_FEATURES = [
+    "latitude", "longitude", "km_to_midtown",
+    "accommodates", "bedrooms", "beds", "bathrooms", "shared_bath",
+    "amenities_count", *AMENITY_FLAGS,
+    "log_min_nights", "availability_30", "availability_365",
+    "has_reviews", "log_reviews", "log_reviews_ltm",
+    "review_scores_rating", "review_scores_cleanliness", "review_scores_location", "review_scores_value",
+    "is_superhost", "identity_verified", "hosts_time_as_host_years", "log_host_listings",
+]
+
+
+def model_pipeline(estimator, cat, num):
+    """Spark ML Pipeline: index, one-hot encode, impute, assemble, estimate."""
+    idx = [StringIndexer(inputCol=c, outputCol=f"{c}_idx") for c in cat]
+    ohe = OneHotEncoder(inputCols=[f"{c}_idx" for c in cat], outputCols=[f"{c}_ohe" for c in cat])
+    imp = Imputer(inputCols=num, outputCols=[f"{c}_imp" for c in num], strategy="median")
+    asm = VectorAssembler(inputCols=[f"{c}_ohe" for c in cat] + [f"{c}_imp" for c in num], outputCol="features")
+    return Pipeline(stages=[*idx, ohe, imp, asm, estimator])

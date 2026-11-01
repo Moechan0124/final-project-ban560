@@ -16,9 +16,10 @@ listings.csv                    Inside Airbnb NYC detailed listings, scraped 202
 code/
   01_EDA_PySpark.ipynb          cleaning, descriptive statistics, figures 1-7, neighborhood demand (RQ3)
   02_Modeling_PySpark.ipynb     baseline, OLS, Elastic Net, random forest, GBT; CV; importance (RQ1, RQ2)
-  airbnb_prep.py                shared cleaning and feature engineering used by notebook 02
+  03_Demand_and_Pricing_Gap.ipynb  demand by listing type (RQ3), out-of-fold fair price, pricing gap
+  airbnb_prep.py                shared cleaning, feature engineering and pipeline code
   plot_style.py                 shared figure style
-figures/                        all PNG figures (fig1-7 from notebook 01, figM1-M6 from notebook 02)
+figures/                        all PNG figures (fig1-7 from notebook 01, figM1-M6 from 02, figD1-D3 from 03)
 outputs/                        CSV tables written by the notebooks
 models/                         saved Spark ML pipeline models (created by notebook 02, not in git)
 requirements.txt                Python package versions
@@ -67,6 +68,7 @@ Or open them in Jupyter (`jupyter notebook`) and choose *Run All*.
 |---|---|---|
 | 01 EDA | about 15 seconds | `figures/fig1-7*.png`, `outputs/price_by_*.csv`, `descriptive_numeric.csv`, `neighbourhood_demand.csv`, `correlation_matrix.csv` |
 | 02 Modeling | about 21 minutes (random forest CV is most of it) | `figures/figM1-M6*.png`, `outputs/model_comparison.csv`, `cv_results_*.csv`, `elastic_net_coefficients.csv`, `tree_feature_importance.csv`, `permutation_importance.csv`, `segment_*.csv`, `models/` |
+| 03 Demand and pricing gap | about 12 minutes | `figures/figD1-D3*.png`, `outputs/demand_by_*.csv`, `fair_price_fit.csv`, `pricing_gap_summary.csv`, `gap_quintile_demand.csv`, `neighbourhood_pricing_gap.csv` |
 
 Spark runs in local mode (`local[*]`, all CPU cores). Notebook 02 asks for a 12 GB driver heap because the random forest cross-validation is memory-hungry; on a laptop with 8 GB of RAM, set `export AIRBNB_SPARK_MEMORY=4g` before starting Jupyter, and if it still runs out of memory, remove 200 from the `numTrees` grid in Section 7 of notebook 02. To run on a cluster
 (Databricks, Amazon EMR), change the `.master(...)` setting in `code/airbnb_prep.py`

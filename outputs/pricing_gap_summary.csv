@@ -1,0 +1,7 @@
+stay_type,gap_group,count,share_of_stay_type
+30+ nights,More than 20% above,3013,0.21563014384885135
+30+ nights,More than 20% below,3172,0.22700923209046017
+30+ nights,Within 20%,7788,0.5573606240606884
+Under 30 nights,More than 20% above,1234,0.2445986124876115
+Under 30 nights,More than 20% below,1040,0.20614469772051536
+Under 30 nights,Within 20%,2771,0.5492566897918731
