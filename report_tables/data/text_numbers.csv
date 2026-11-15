@@ -1,0 +1,26 @@
+item,value,report_section
+Listings in the raw file,29918.0,"1.1, 2.1"
+Columns in the raw file,90.0,"1.1, 2.1"
+Listings with a price,19406.0,2.1
+Share with a price (%),64.86396149475232,2.1
+Unpriced listings with zero open nights (%),66.6761796042618,2.1
+Priced listings with zero open nights (%),0.04637740904874781,2.1
+Lower trim bound ($),43.27,2.2
+Upper trim bound ($),1997.43,2.2
+Analytic sample,19018.0,2.2
+Neighborhoods in the analytic sample,223.0,2.2
+"Skewness of price, analytic sample",2.4680133061956044,2.2
+"Skewness of ln(price), analytic sample",0.34087270666527286,2.2
+Highest price before trimming ($),31537.82,2.2
+"Median price, analytic sample ($)",182.34,"2.2, 3.1"
+Share of all listings with minimum stay of exactly 30 nights (%),77.6188247877532,3.1
+Share of all listings with minimum stay of 30+ nights (%),80.68386924259643,"1.2, 3.1"
+Correlation of guests accommodated with beds,0.7658279314910067,2.3
+Correlation of km to Times Square with ln(price),-0.4103082849384708,3.1
+"Median price, Entire home/apt, Under 30 nights ($)",430.0,3.1
+"Median price, Private room, 30+ nights ($)",77.91,3.1
+"Median price, Entire home/apt, 30+ nights ($)",196.2,3.1
+"Median price, Private room, Under 30 nights ($)",302.0,3.1
+"Mean reviews in last 12 months, Superhosts",14.230869727510266,3.1
+"Mean reviews in last 12 months, other hosts",4.602269399707175,3.1
+"Mean open nights, analytic sample",253.71931854033022,3.4

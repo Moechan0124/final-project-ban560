@@ -1,0 +1,19 @@
+model,setting,cv_rmse_log
+Elastic Net,"regParam=0.0005, elasticNetParam=0.5",0.37764042114014806
+Elastic Net,"regParam=0.0005, elasticNetParam=0.0",0.377640633475974
+Elastic Net,"regParam=0.0005, elasticNetParam=1.0",0.37766803536266713
+Elastic Net,"regParam=0.002, elasticNetParam=0.0",0.377676536331431
+Elastic Net,"regParam=0.002, elasticNetParam=0.5",0.3777955000586791
+Elastic Net,"regParam=0.01, elasticNetParam=0.0",0.37787345218827373
+Elastic Net,"regParam=0.002, elasticNetParam=1.0",0.37826947198411404
+Elastic Net,"regParam=0.05, elasticNetParam=0.0",0.3793379807060493
+Elastic Net,"regParam=0.01, elasticNetParam=0.5",0.38211668966333806
+Elastic Net,"regParam=0.01, elasticNetParam=1.0",0.3903313756830136
+Elastic Net,"regParam=0.05, elasticNetParam=0.5",0.415797668311924
+Elastic Net,"regParam=0.05, elasticNetParam=1.0",0.4413179748462791
+Gradient-boosted trees,maxDepth=4,0.33664310133608244
+Gradient-boosted trees,maxDepth=6,0.3460082665490016
+Random forest,"numTrees=200, maxDepth=15",0.3216892467129746
+Random forest,"numTrees=100, maxDepth=15",0.3225254158802275
+Random forest,"numTrees=200, maxDepth=10",0.34186981300685254
+Random forest,"numTrees=100, maxDepth=10",0.34222751943057106

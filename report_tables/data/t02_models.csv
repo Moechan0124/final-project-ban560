@@ -1,0 +1,6 @@
+model,spark_class,grid,selected
+Baseline,Spark SQL group-by,none (median log price by neighborhood x room type),-
+OLS,LinearRegression,none,-
+Elastic Net,LinearRegression,"regParam [0.0005, 0.002, 0.01, 0.05]; elasticNetParam [0.0, 0.5, 1.0]","regParam=0.0005, elasticNetParam=0.5"
+Random forest,RandomForestRegressor,"numTrees [100, 200]; maxDepth [10, 15]","numTrees=200, maxDepth=15"
+Gradient-boosted trees,GBTRegressor,"maxDepth [4, 6]",maxDepth=4

@@ -1,0 +1,3 @@
+model,oof_r2_log,median_abs_pct_error
+A (with location),0.8216370411641776,0.1742259415484424
+B (no location),0.7802949882109125,0.20117205357650314

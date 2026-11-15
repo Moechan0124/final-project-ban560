@@ -1,0 +1,16 @@
+feature,pct_change_in_price,compared_with
+30+ night minimum stay,-33.12575934514016,Under-30-night listings
+Entire home/apt,28.722458468456235,Shared room
+Private room,3.484289225161323,Shared room
+License not reported,-31.13267557784215,Registered listings
+License exempt,-15.124145932719438,Registered listings
+Shared bath,-20.371785552668754,Private bath
+Each extra bedroom,11.284808825579805,Per bedroom
+Each extra guest,5.664283267780956,Per guest
+Distance to Times Square,-3.7857884100723465,Per km
+Gym,18.706655687308178,Listings without a gym
+Building staff,14.418593435754968,Listings without staff
+Dishwasher,12.140925105323225,Listings without one
+Elevator,9.003356197459913,Listings without one
+Overall rating,10.047729288359893,Per rating point (1-5)
+Superhost,0.7408337574433597,Non-superhosts

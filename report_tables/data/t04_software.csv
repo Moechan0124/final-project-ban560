@@ -1,0 +1,6 @@
+tool,version
+Apache Spark / PySpark,4.2.0
+Python,3.13.9
+Java,"openjdk version ""17.0.20.1"" 2026-08-18"
+pandas,2.3.3
+Matplotlib,3.10.6

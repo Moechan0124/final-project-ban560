@@ -1,0 +1,45 @@
+family,variable,type
+Location,neighbourhood_grp,categorical
+Location,latitude,numeric
+Location,longitude,numeric
+Location,km_to_midtown,numeric
+Room & property type,room_type,categorical
+Room & property type,property_grp,categorical
+Size & capacity,accommodates,numeric
+Size & capacity,bedrooms,numeric
+Size & capacity,beds,numeric
+Size & capacity,bathrooms,numeric
+Size & capacity,shared_bath,numeric
+Amenities,amenities_count,numeric
+Amenities,am_air_conditioning,numeric
+Amenities,am_workspace,numeric
+Amenities,am_tv,numeric
+Amenities,am_self_checkin,numeric
+Amenities,am_washer,numeric
+Amenities,am_dryer,numeric
+Amenities,am_dishwasher,numeric
+Amenities,am_elevator,numeric
+Amenities,am_building_staff,numeric
+Amenities,am_private_entrance,numeric
+Amenities,am_free_parking,numeric
+Amenities,am_bathtub,numeric
+Amenities,am_pets_allowed,numeric
+Amenities,am_gym,numeric
+Amenities,am_bedroom_lock,numeric
+Amenities,am_outdoor_dining,numeric
+"Booking rules (stay, availability)",log_min_nights,numeric
+"Booking rules (stay, availability)",stay_type,categorical
+"Booking rules (stay, availability)",availability_30,numeric
+"Booking rules (stay, availability)",availability_365,numeric
+Reviews & ratings,has_reviews,numeric
+Reviews & ratings,log_reviews,numeric
+Reviews & ratings,log_reviews_ltm,numeric
+Reviews & ratings,review_scores_rating,numeric
+Reviews & ratings,review_scores_cleanliness,numeric
+Reviews & ratings,review_scores_location,numeric
+Reviews & ratings,review_scores_value,numeric
+Host attributes,is_superhost,numeric
+Host attributes,identity_verified,numeric
+Host attributes,hosts_time_as_host_years,numeric
+Host attributes,log_host_listings,numeric
+License status,license_status,categorical
