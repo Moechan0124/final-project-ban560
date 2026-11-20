@@ -36,7 +36,6 @@ models/                         saved Spark ML pipeline models (created by noteb
 requirements.txt                Python package versions
 ```
 
-`kafka_streaming_lab_advanced.ipynb` in this repository is a separate course lab, not part of this project.
 
 **Large files kept out of git:**
 
