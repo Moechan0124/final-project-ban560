@@ -9,6 +9,14 @@ Airbnb listings and how well price can be predicted. It answers three research q
 2. **RQ2:** Can a regression model built from these features predict price reasonably well?
 3. **RQ3:** Which neighborhoods and listing types show the highest demand (few open nights and many recent reviews)?
 
+## Team
+
+| Member | GitHub | Main contributions |
+|---|---|---|
+| Benard Mubayiwa | 
+| Nuttida Srisilapa-Udom |
+| Xiang Wan |
+
 ## Repository layout
 
 ```
