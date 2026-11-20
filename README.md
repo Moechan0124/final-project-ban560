@@ -11,8 +11,8 @@ Airbnb listings and how well price can be predicted. It answers three research q
 
 ## Team
 
-| Member | GitHub | Main contributions |
-|---|---|---|
+| Member |
+|---|
 | Benard Mubayiwa | 
 | Nuttida Srisilapa-Udom |
 | Xiang Wan |
